@@ -1,0 +1,12 @@
+{
+	"name": "Minimal Admin",
+	"version": "1.0.3",
+	"download_url": "https://www.minimaladmin.online/wp-content/minimal-admin.zip",
+	"homepage": "https://www.minimaladmin.online",
+	"author": "Hartum",
+	"author_homepage": "https://www.minimaladmin.online",
+
+	"sections": {
+		"description": "Bring your admin panel into the 21st century with this minimalist design and give your customers a professional looking interface."
+	}
+}

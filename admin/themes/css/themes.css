@@ -1,0 +1,24 @@
+.theme-browser .themes .theme {
+  border-radius: 5px;
+  border-color: var(--border-color);
+  box-shadow: var(--card-border-shadow);
+  overflow: hidden;
+}
+.theme-browser .themes .theme .theme-screenshot {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.theme-browser .themes .theme .notice {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.theme-browser .themes .theme .theme-actions {
+  padding: 4px 9px !important;
+}
+.theme-browser .themes .theme.add-new-theme a:after {
+  border: 1px dashed var(--border-color) !important;
+  border-radius: 5px;
+}
+.theme-browser .themes .theme.add-new-theme .theme-name {
+  color: var(--text-color);
+}

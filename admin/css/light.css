@@ -1,0 +1,41 @@
+:root {
+  --body-background-img: radial-gradient(
+  	circle farthest-corner at 1.3% 2.8%,
+  	rgba(255, 255, 255, 1) 70%,
+  	rgb(210, 224, 246) 100.2%
+  );
+  --primary-color: #409eff;
+  --primary-text-color: #fff;
+  --secondary-color: #ecf5ff;
+  --border-color: rgba(44, 51, 56, 0.2);
+  --border-color-hover: #c0c4cc;
+  --button-border-color: #dcdfe6;
+  --button-text-color: #606266;
+  --button-background-color: #f4f4f5;
+  --open-sans: "Open Sans", sans-serif;
+  --text-color: #606269;
+  --text-color-soft: #606269;
+  --text-color-inverse: #fafafa;
+  --soft-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  --card-background-color: #fafafa;
+  --card-border-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  --input-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  --input-background-color: #fff;
+  --input-background-color-disabled: #dcdfe6;
+  --background-menu-icons: rgba(0, 0, 0, 0.25);
+  --border-menu-icons: rgba(0, 0, 0, 0.5);
+  --link-color: #409eff;
+  --dark: #434547;
+  --yellow: #f6d900;
+  --yellow-soft: #fcf09c;
+  --green: #00a32a;
+  --green-soft: #7ff79d;
+  --red: #f1700d;
+  --red-soft: #ffc6c6;
+  --blue: #409eff;
+  --blue-soft: #c5dffa;
+}
+
+* {
+  color: var(--text-color);
+}

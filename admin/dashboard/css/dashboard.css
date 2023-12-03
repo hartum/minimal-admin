@@ -1,0 +1,54 @@
+.welcome-panel {
+  background-color: var(--primary-color);
+  box-shadow: var(--card-border-shadow);
+}
+.welcome-panel a {
+  color: var(--primary-text-color);
+}
+.welcome-panel .welcome-panel-column-container {
+  background-color: var(--card-background-color);
+}
+
+#dashboard-widgets-wrap #dashboard-widgets .postbox-container .empty-container {
+  border-radius: 5px;
+  outline: 1px dashed var(--border-color);
+}
+#dashboard-widgets-wrap #dashboard-widgets .postbox-container .empty-container::after {
+  color: var(--text-color);
+}
+#dashboard-widgets-wrap #dashboard-widgets .postbox-container .meta-box-sortables {
+  border-radius: 5px;
+}
+#dashboard-widgets-wrap #dashboard-widgets .postbox-container .meta-box-sortables .postbox {
+  border-radius: 5px;
+  box-shadow: var(--card-border-shadow);
+  border-color: var(--border-color);
+  background-color: var(--card-background-color);
+  font-weight: 400;
+}
+#dashboard-widgets-wrap #dashboard-widgets .postbox-container .meta-box-sortables .postbox .postbox-header {
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--border-color);
+}
+#dashboard-widgets-wrap #dashboard-widgets .postbox-container .meta-box-sortables .postbox .postbox-header h2 {
+  color: var(--text-color);
+  font-weight: 300;
+}
+#dashboard-widgets-wrap #dashboard-widgets .postbox-container .meta-box-sortables .postbox .handle-order-lower,
+#dashboard-widgets-wrap #dashboard-widgets .postbox-container .meta-box-sortables .postbox .handle-order-higher {
+  display: none;
+}
+#dashboard-widgets-wrap #dashboard-widgets .postbox-container .meta-box-sortables .postbox .toggle-indicator::before {
+  content: "\f343";
+}
+#dashboard-widgets-wrap #dashboard-widgets .postbox-container .meta-box-sortables .postbox.closed .handlediv .toggle-indicator::before {
+  content: "\f347";
+}
+
+.is-dragging-metaboxes #dashboard-widgets .meta-box-sortables {
+  outline: 1px dashed grey;
+}
+
+#activity-widget #the-comment-list .comment-item {
+  background-color: transparent;
+}

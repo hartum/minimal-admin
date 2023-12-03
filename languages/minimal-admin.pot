@@ -1,0 +1,53 @@
+# Copyright (C) 2023 Minimal Admin
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Minimal Admin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/w3-total-cache\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-23T21:21:22+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: minimal-admin\n"
+
+#. Settings theme tab
+msgid "Light/Dark"
+msgstr ""
+
+#. Settings menu tab
+msgid "Menu"
+msgstr ""
+
+#. Settings brand tab
+msgid "Brand"
+msgstr ""
+
+#. Settings radiobutton option
+msgid "Light theme"
+msgstr ""
+
+msgid "Dark theme"
+msgstr ""
+
+#. Settings button
+msgid "Change theme"
+msgstr ""
+
+#. Warning message
+msgid "You need to give write permissions to the file"
+msgstr ""
+
+msgid "in order to save changes to Minimal Admin."
+msgstr ""
+
+#. Brand buttons
+msgid "Change image"
+msgstr ""
+
+msgid "Save image"
+msgstr ""
+

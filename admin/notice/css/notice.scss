@@ -1,0 +1,112 @@
+.notice-warning {
+	border: 1px solid var(--border-color);
+	border-left: 52px solid var(--yellow);
+	background-color: var(--yellow-soft);
+	color: var(--dark);
+	border-radius: 5px;
+	box-shadow: var(--soft-shadow);
+	p {
+		color: var(--dark);
+		display: inline-block;
+		vertical-align: middle;
+	}
+	b,
+	strong {
+		color: var(--dark);
+	}
+	&.notice-alt {
+		background-color: var(--yellow-soft);
+	}
+	&::before {
+		display: inline-block;
+		vertical-align: top;
+		font-family: dashicons;
+		font-weight: 900;
+		content: '\f534';
+		font-size: 28px;
+		margin-left: -52px;
+		margin-right: 20px;
+		// margin-top: 13px;
+		line-height: 1em;
+		color: var(--yellow-soft);
+	}
+}
+.notice-success,
+div.updated {
+	border: 1px solid var(--border-color);
+	border-left: 52px solid var(--green);
+	background-color: var(--green-soft);
+	color: var(--dark);
+	border-radius: 5px;
+	box-shadow: var(--soft-shadow);
+	p {
+		color: var(--dark);
+		display: inline-block;
+		vertical-align: middle;
+	}
+	b,
+	strong {
+		color: var(--dark);
+	}
+	&::before {
+		vertical-align: top;
+		font-family: dashicons;
+		font-weight: 900;
+		content: '\f12a';
+		font-size: 28px;
+		margin-left: -54px;
+		margin-right: 20px;
+		line-height: 1em;
+		color: var(--green-soft);
+	}
+}
+.notice-error,
+div.error {
+	border: 1px solid var(--border-color);
+	border-left: 52px solid var(--red);
+	background-color: var(--red-soft);
+	color: var(--dark);
+	border-radius: 5px;
+	box-shadow: var(--soft-shadow);
+	p {
+		color: var(--dark);
+		display: inline-block;
+		vertical-align: middle;
+	}
+	b,
+	strong {
+		color: var(--dark);
+	}
+	&::before {
+		vertical-align: top;
+		font-family: dashicons;
+		font-weight: 900;
+		content: '\f153';
+		font-size: 28px;
+		margin-left: -54px;
+		margin-right: 20px;
+		line-height: 1em;
+		color: var(--red-soft);
+	}
+}
+.notice-info {
+	border: 1px solid var(--border-color);
+	border-left: 52px solid var(--blue);
+	background-color: var(--blue-soft);
+	border-radius: 5px;
+	box-shadow: var(--soft-shadow);
+	strong {
+		color: var(--dark);
+	}
+	&::before {
+		vertical-align: top;
+		font-family: dashicons;
+		font-weight: 900;
+		content: '\f348';
+		font-size: 28px;
+		margin-left: -54px;
+		margin-right: 20px;
+		line-height: 1em;
+		color: var(--blue-soft);
+	}
+}

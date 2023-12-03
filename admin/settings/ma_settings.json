@@ -1,0 +1,56 @@
+{
+    "mode": "light",
+    "brandImage": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/2023\/12\/377345_10150370684837198_2038727259_n.jpg",
+    "menuIcons": [
+        {
+            "source": "dashicons-dashboard",
+            "icon": "dashboard.svg",
+            "iconColor": "dashboard.svg"
+        },
+        {
+            "source": "dashicons-admin-post",
+            "icon": "post.svg",
+            "iconColor": "post.svg"
+        },
+        {
+            "source": "dashicons-admin-media",
+            "icon": "media.svg",
+            "iconColor": "media.svg"
+        },
+        {
+            "source": "dashicons-admin-page",
+            "icon": "page.svg",
+            "iconColor": "page.svg"
+        },
+        {
+            "source": "dashicons-admin-comments",
+            "icon": "comments.svg",
+            "iconColor": "comments.svg"
+        },
+        {
+            "source": "dashicons-admin-appearance",
+            "icon": "appearance.svg",
+            "iconColor": "appearance.svg"
+        },
+        {
+            "source": "dashicons-admin-plugins",
+            "icon": "plugins.svg",
+            "iconColor": "plugins.svg"
+        },
+        {
+            "source": "dashicons-admin-users",
+            "icon": "users.svg",
+            "iconColor": "users.svg"
+        },
+        {
+            "source": "dashicons-admin-tools",
+            "icon": "tools.svg",
+            "iconColor": "tools.svg"
+        },
+        {
+            "source": "dashicons-admin-settings",
+            "icon": "settings.svg",
+            "iconColor": "settings.svg"
+        }
+    ]
+}

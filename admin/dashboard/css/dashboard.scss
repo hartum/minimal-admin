@@ -1,0 +1,62 @@
+.welcome-panel {
+	background-color: var(--primary-color);
+	box-shadow: var(--card-border-shadow);
+	a {
+		color: var(--primary-text-color);
+	}
+	.welcome-panel-column-container {
+		background-color: var(--card-background-color);
+	}
+}
+
+#dashboard-widgets-wrap {
+	#dashboard-widgets {
+		.postbox-container {
+			.empty-container {
+				border-radius: 5px;
+				outline: 1px dashed var(--border-color);
+				&::after {
+					color: var(--text-color);
+				}
+			}
+			.meta-box-sortables {
+				border-radius: 5px;
+				.postbox {
+					border-radius: 5px;
+					box-shadow: var(--card-border-shadow);
+					border-color: var(--border-color);
+					background-color: var(--card-background-color);
+					font-weight: 400;
+					.postbox-header {
+						border-bottom: 1px solid var(--border-color);
+						background-color: var(--border-color);
+						h2 {
+							color: var(--text-color);
+							font-weight: 300;
+						}
+					}
+					.handle-order-lower,
+					.handle-order-higher {
+						display: none;
+					}
+					.toggle-indicator::before {
+						content: '\f343';
+					}
+					&.closed .handlediv .toggle-indicator::before {
+						content: '\f347';
+					}
+				}
+			}
+		}
+	}
+}
+.is-dragging-metaboxes {
+	#dashboard-widgets {
+		.meta-box-sortables {
+			outline: 1px dashed grey;
+		}
+	}
+}
+#activity-widget #the-comment-list .comment-item {
+	background-color: transparent;
+}

@@ -1,0 +1,104 @@
+table.wp-list-table,
+table.widefat {
+  box-shadow: var(--input-shadow);
+}
+
+.wp-list-table,
+.widefat {
+  border: none !important;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.wp-list-table thead tr,
+.wp-list-table tfoot tr,
+.widefat thead tr,
+.widefat tfoot tr {
+  background-color: var(--button-background-color);
+}
+.wp-list-table thead tr th,
+.wp-list-table tfoot tr th,
+.widefat thead tr th,
+.widefat tfoot tr th {
+  color: var(--text-color);
+  border-top: 1px solid var(--button-border-color) !important;
+  border-bottom: 1px solid var(--button-border-color) !important;
+  border-left: 1px dotted var(--button-border-color) !important;
+  overflow: hidden;
+}
+.wp-list-table thead tr th a span,
+.wp-list-table tfoot tr th a span,
+.widefat thead tr th a span,
+.widefat tfoot tr th a span {
+  color: var(--text-color);
+}
+.wp-list-table thead tr th .comment-grey-bubble:before,
+.wp-list-table tfoot tr th .comment-grey-bubble:before,
+.widefat thead tr th .comment-grey-bubble:before,
+.widefat tfoot tr th .comment-grey-bubble:before {
+  color: var(--text-color);
+}
+.wp-list-table thead tr th:last-child,
+.wp-list-table tfoot tr th:last-child,
+.widefat thead tr th:last-child,
+.widefat tfoot tr th:last-child {
+  border-right: 1px solid var(--button-border-color) !important;
+  overflow: hidden;
+}
+.wp-list-table thead tr td,
+.wp-list-table tfoot tr td,
+.widefat thead tr td,
+.widefat tfoot tr td {
+  color: var(--text-color);
+  border-top: 1px solid var(--button-border-color) !important;
+  border-bottom: 1px solid var(--button-border-color) !important;
+  border-left: 1px solid var(--button-border-color) !important;
+}
+.wp-list-table tbody tr,
+.widefat tbody tr {
+  background: var(--card-background-color);
+  border-bottom: 1px solid var(--button-border-color) !important;
+}
+.wp-list-table tbody tr:nth-child(odd),
+.widefat tbody tr:nth-child(odd) {
+  background: var(--secondary-color);
+}
+.wp-list-table tbody tr td,
+.widefat tbody tr td {
+  border-bottom: 1px dashed var(--button-border-color) !important;
+}
+.wp-list-table tbody tr td strong,
+.wp-list-table tbody tr td .second,
+.widefat tbody tr td strong,
+.widefat tbody tr td .second {
+  color: var(--dark);
+}
+.wp-list-table tbody tr td .importer-desc,
+.widefat tbody tr td .importer-desc {
+  color: var(--dark);
+}
+.wp-list-table tbody tr .inline-edit-wrapper,
+.wp-list-table tbody tr .comment-reply,
+.widefat tbody tr .inline-edit-wrapper,
+.widefat tbody tr .comment-reply {
+  background-color: var(--card-background-color);
+}
+.wp-list-table tbody tr fieldset label span.title,
+.widefat tbody tr fieldset label span.title {
+  float: unset;
+}
+.wp-list-table tbody tr fieldset label span.input-text-wrap,
+.widefat tbody tr fieldset label span.input-text-wrap {
+  margin-left: unset;
+}
+.wp-list-table tbody tr fieldset.inline-edit-col-right,
+.widefat tbody tr fieldset.inline-edit-col-right {
+  width: 61% !important;
+}
+.wp-list-table tbody th,
+.widefat tbody th {
+  border-bottom: 1px dashed var(--button-border-color) !important;
+}
+.wp-list-table .sorting-indicator:before,
+.widefat .sorting-indicator:before {
+  color: var(--text-color);
+}
