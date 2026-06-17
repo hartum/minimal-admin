@@ -39,6 +39,9 @@ With the default configuration, this plugin, in itself, does not:
 1. screenshot-1.png
 
 == Changelog ==
+= 1.0.4 =
+* Bug fixed with brand image
+
 = 1.0.3 =
 * Improve menu in mobile version
 * Add close/open to menu

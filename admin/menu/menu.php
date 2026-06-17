@@ -29,7 +29,7 @@ function set_js_variables() {
 	//--- check if image exist
 	$file = $jsonData["brandImage"];
 	$file_headers = @get_headers($file);
-	if(!$file_headers || $file_headers[0] == 'HTTP/1.1 404 Not Found') {
+	if(!$file_headers || $file_headers[0] == 'HTTP/1.1 404 Not Found' || $file_headers[0] == 'HTTP/1.1 502 Bad Gateway') {
 		$jsonData["brandImage"] = null;
 	}
 	//--- set image source
